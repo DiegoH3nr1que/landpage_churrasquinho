@@ -10,7 +10,7 @@ const jacquesFrancoisShadow = Jacques_Francois_Shadow({
 
 export default function Header() {
   return (
-    <header className="relative w-full h-[200px] sm:h-[300px] lg:h-[400px]">
+    <header className="relative w-full h-[200px] sm:h-[200px] lg:h-[300px]">
       <Image
         src="/espetinho.png"
         alt="Espetinho"

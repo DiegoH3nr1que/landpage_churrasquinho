@@ -1,6 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import { Jacques_Francois_Shadow } from "next/font/google";
+import {Jacques_Francois_Shadow } from "next/font/google";
+import { Glory } from "next/font/google";
+
+const glory = Glory({
+  subsets: ["latin"],
+  weight: "400",
+})
 
 const jacquesFrancoisShadow = Jacques_Francois_Shadow({
   subsets: ["latin"],
@@ -33,7 +39,7 @@ export default function Cardapio() {
   return (
     <div className="bg-[#99714B] min-h-screen p-6 rounded-md">
       <h1
-        className="text-center text-3xl sm:text-xl lg:text-3xl text-white mb-8"
+        className={`text-center text-3xl sm:text-xl lg:text-3xl text-white mb-8`}
         style={{ fontFamily: jacquesFrancoisShadow.style.fontFamily }}
       >
         Cardápio
@@ -53,10 +59,10 @@ export default function Cardapio() {
               />
             </div>
             <div className="p-4 text-center">
-              <h2 className="text-lg font-semibold text-[#42210B]">
+              <h2 className="text-left" style={{ fontFamily: glory.style.fontFamily }}>
                 {item.name}
               </h2>
-              <p className="text-[#42210B] font-medium mt-2">{item.price}</p>
+              <p style={{ fontFamily: glory.style.fontFamily }} className={`mt-2 text-left`}>{item.price}</p>
             </div>
           </div>
         ))}
