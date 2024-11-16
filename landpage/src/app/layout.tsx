@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Espetinho da Sogra",
-  description: "melhor espetinho de Votorantim",
+  description: "Melhor espetinho de Votorantim e Região!! 🎉🍻🥇",
 };
 
 export default function RootLayout({
