@@ -14,7 +14,7 @@ const jacquesFrancoisShadow = Jacques_Francois_Shadow({
   display: "swap",
 });
 
-export default function Cardapio() {
+export default function Menu() {
   const items = [
     {
       id: 1,
