@@ -23,18 +23,18 @@ body {
 @keyframes carousel {
   0% {
     opacity: 0;
-    transform: translateX(100%);
+    transform: translateY(50%);
   }
   50% {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
   }
   100% {
     opacity: 0;
-    transform: translateX(-100%);
+    transform: translateY(-50%);
   }
 }
 
 .animate-carousel {
-  animation: carousel 10s infinite;
+  animation: carousel 3s infinite;
 }
