@@ -11,22 +11,7 @@ const jacquesFrancoisShadow = Jacques_Francois_Shadow({
   display: "swap",
 });
 
-
 export default function Header() {
-  const messages = [
-    "Sejam Bem-vindos!",
-    "Aproveitem nossos sabores!",
-    "Esperamos por você!",
-  ];
-  const [currentMessage, setCurrentMessage] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentMessage((prev) => (prev + 1) % messages.length);
-    }, 10000);
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <header className="relative w-full h-[200px] sm:h-[200px] lg:h-[300px]">
       <Image
@@ -45,11 +30,9 @@ export default function Header() {
           Espetinho da Sogra
         </h1>
         <h1
-          key={currentMessage}
           className={`text-white text-2xl sm:text-3xl lg:text-4xl drop-shadow-md animate-carousel`}
-          // style={{ fontFamily: jacquesFrancoisShadow.style.fontFamily }}
         >
-          {messages[currentMessage]}
+          Seja Bem Vindo!
         </h1>
       </div>
       <div className="absolute bottom-0 right-0 m-4">
