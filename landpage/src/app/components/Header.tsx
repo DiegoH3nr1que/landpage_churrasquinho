@@ -1,6 +1,5 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import React from "react";
 import Image from "next/image";
 import { Jacques_Francois_Shadow } from "next/font/google";
