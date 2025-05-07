@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Espetinho da Sogra",
+  title: "Espetinho Europa",
   description: "Melhor espetinho de Votorantim e Região!! 🎉🍻🥇",
 };
 
