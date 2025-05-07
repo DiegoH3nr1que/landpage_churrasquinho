@@ -26,7 +26,7 @@ export default function Header() {
           className={`text-white text-3xl sm:text-4xl lg:text-5xl drop-shadow-md`}
           style={{ fontFamily: jacquesFrancoisShadow.style.fontFamily }}
         >
-          Espetinho da Sogra
+          Espetinho Europa
         </h1>
         <h1
           className={`text-white text-2xl sm:text-3xl lg:text-4xl drop-shadow-md animate-carousel`}

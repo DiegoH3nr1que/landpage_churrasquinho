@@ -7,16 +7,16 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4 md:flex-row md:justify-between">
           {/* Informações de Contato */}
           <div className="text-center md:text-left">
-            <h2 className="text-lg sm:text-xl">Espetinho da Sogra</h2>
+            <h2 className="text-lg sm:text-xl">Espetinho Europa</h2>
             <p className="text-sm sm:text-base">
-              Rua José Gonçalves Romero Nº231, Votorantim, SP
+              Rua José Gonçalves Romero Nº 231, Votorantim, SP
             </p>
           </div>
 
           {/* Redes Sociais */}
           <div className="flex gap-4">
             <a
-              href="https://www.instagram.com/espetinhos_da_sogra/"
+              href="https://www.instagram.com/espetinho_europa/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#FFD700] transition-colors"
@@ -24,7 +24,7 @@ export default function Footer() {
               Instagram
             </a>
             <a
-              href="https://wa.me/5515997853038"
+              href="https://wa.me/5515991768979"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#FFD700] transition-colors"
@@ -36,7 +36,7 @@ export default function Footer() {
           {/* Créditos */}
           <div className="text-center md:text-right">
             <p className="text-sm sm:text-base">
-              © {new Date().getFullYear()} Espetinho da Sogra. Todos os direitos
+              © {new Date().getFullYear()} Espetinho Europa. Todos os direitos
               reservados.
             </p>
           </div>

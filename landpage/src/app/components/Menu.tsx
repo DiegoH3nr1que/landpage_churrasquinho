@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import {Jacques_Francois_Shadow } from "next/font/google";
+import { Jacques_Francois_Shadow } from "next/font/google";
 import { Glory } from "next/font/google";
 
 const glory = Glory({
   subsets: ["latin"],
   weight: "400",
-})
+});
 
 const jacquesFrancoisShadow = Jacques_Francois_Shadow({
   subsets: ["latin"],
@@ -18,22 +18,76 @@ export default function Menu() {
   const items = [
     {
       id: 1,
-      image: "/carne_fraldinha.webp",
-      name: "CARNE FRALDINHA",
-      price: "R$9,00",
+      image: "/queijo-coalho.webp",
+      name: "QUEIJO COALHO",
+      price: "R$10,00",
     },
     {
       id: 2,
-      image: "/frango_bacon.png",
-      name: "FRANGO C/BACON",
+      image: "/carne_fraldinha.webp",
+      name: "FRALDINHA",
       price: "R$10,00",
     },
-    { id: 3, image: "/panceta.webp", name: "PANCETA", price: "R$8,00" },
-    { id: 4, image: "/kafta.jpg", name: "KAFTA", price: "R$8,00" },
-    { id: 5, image: "/coracaozinho.jpg", name: "CORAÇÃZINHO", price: "R$9,00" },
-    { id: 6, image: "/linguica.webp", name: "LINGUIÇA", price: "R$8,00" },
-    { id: 7, image: "/frango.jpg", name: "FRANGO", price: "R$8,00" },
-    { id: 8, image: "/costela.jpg", name: "COSTELA", price: "R$9,00" },
+    { id: 3, image: "/costela.jpg", name: "COSTELA", price: "R$10,00" },
+    {
+      id: 4,
+      image: "/carne_bacon.webp",
+      name: "CARNE C/ BACON",
+      price: "R$12,00",
+    },
+    {
+      id: 5,
+      image: "/frango_bacon.png",
+      name: "FRANGO C/BACON",
+      price: "R$12,00",
+    },
+    {
+      id: 6,
+      image: "/espetinho-misto.webp",
+      name: "MISTO C/ BACON",
+      price: "R$12,00",
+    },
+    {
+      id: 7,
+      image: "/bacon-com-queijo.webp",
+      name: "QUEIJO BACON",
+      price: "R$12,00",
+    },
+    {
+      id: 8,
+      image: "/coracaozinho.jpg",
+      name: "CORAÇÃZINHO",
+      price: "R$10,00",
+    },
+    { id: 9, image: "/linguica.webp", name: "LINGUIÇA", price: "R$9,00" },
+    { id: 10, image: "/frango.jpg", name: "FRANGO", price: "R$9,00" },
+    { id: 11, image: "/pao_alho.jpg", name: "PÃO DE ALHO", price: "R$10,00" },
+    { id: 12, image: "/panceta.webp", name: "PANCETA", price: "R$9,00" },
+    { id: 13, image: "/kafta.jpg", name: "KAFTA", price: "R$10,00" },
+    {
+      id: 14,
+      image: "/kafta_queijo.webp",
+      name: "KAFTA C/ QUEIJO",
+      price: "R$14,00",
+    },
+    {
+      id: 15,
+      image: "/picanha_chimichurri.jpg",
+      name: "PICANHA C/ CHIMICHURRI",
+      price: "R$15,00",
+    },
+    {
+      id: 16,
+      image: "/palmito-bacon.jpg",
+      name: "PALMITO C/ BACON",
+      price: "R$12,00",
+    },
+    {
+      id: 17,
+      image: "/costelinha_suina.jpg",
+      name: "COSTELINHA SUÍNA",
+      price: "R$10,00",
+    },
   ];
 
   return (
@@ -59,10 +113,18 @@ export default function Menu() {
               />
             </div>
             <div className="p-4 text-center">
-              <h2 className="text-left" style={{ fontFamily: glory.style.fontFamily }}>
+              <h2
+                className="text-left"
+                style={{ fontFamily: glory.style.fontFamily }}
+              >
                 {item.name}
               </h2>
-              <p style={{ fontFamily: glory.style.fontFamily }} className={`mt-2 text-left`}>{item.price}</p>
+              <p
+                style={{ fontFamily: glory.style.fontFamily }}
+                className={`mt-2 text-left`}
+              >
+                {item.price}
+              </p>
             </div>
           </div>
         ))}
