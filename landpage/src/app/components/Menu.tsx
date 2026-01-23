@@ -59,16 +59,16 @@ export default function Menu() {
       name: "CORAÇÃZINHO",
       price: "R$10,00",
     },
-    { id: 9, image: "/linguica.webp", name: "LINGUIÇA", price: "R$9,00" },
-    { id: 10, image: "/frango.jpg", name: "FRANGO", price: "R$9,00" },
+    { id: 9, image: "/linguica.webp", name: "LINGUIÇA", price: "R$10,00" },
+    { id: 10, image: "/frango.jpg", name: "FRANGO", price: "R$10,00" },
     { id: 11, image: "/pao_alho.jpg", name: "PÃO DE ALHO", price: "R$10,00" },
-    { id: 12, image: "/panceta.webp", name: "PANCETA", price: "R$9,00" },
+    { id: 12, image: "/panceta.webp", name: "PANCETA", price: "R$10,00" },
     { id: 13, image: "/kafta.jpg", name: "KAFTA", price: "R$10,00" },
     {
       id: 14,
       image: "/kafta_queijo.webp",
       name: "KAFTA C/ QUEIJO",
-      price: "R$14,00",
+      price: "R$15,00",
     },
     {
       id: 15,
@@ -84,9 +84,9 @@ export default function Menu() {
     },
     {
       id: 17,
-      image: "/costelinha_suina.jpg",
-      name: "COSTELINHA SUÍNA",
-      price: "R$10,00",
+      image: "/carne_bacon.webp",
+      name: "MIGNON C/ BACON",
+      price: "R$15,00",
     },
   ];
 
